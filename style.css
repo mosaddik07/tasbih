@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body_section {
+  width: 100%;
+  height: 100vh;
+  background-color: #ff3cac;
+  background-image: linear-gradient(295deg, #ff3caa 0%, #784ba0 50%, #2b86c5 100%);
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.body_section h1 {
+  color: #fff;
+  text-align: center;
+  font-family: monospace;
+  font-size: 65px;
+  padding-top: 20px;
+  user-select: none;
+}
+.counter h1 {
+  text-align: center;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 305px;
+  font-weight: 200;
+  margin-top: -60px;
+  user-select: none;
+}
+
+.up_arrow {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: rgba(0, 128, 0, 0.625);
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.up_arrow:active {
+  background: rgba(0, 0, 255, 0.501);
+}
+.up_arrow span {
+  font-size: 80px;
+  color: #fff;
+}
+.up_arrow span:active {
+  margin-top: -20px;
+}
+.reset {
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 0, 0, 0.571);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7px;
+  cursor: pointer;
+  user-select: none;
+  transition: 1s;
+}
+
+.reset i {
+  color: #fff;
+}
+
+.reset:active {
+  background: rgba(0, 128, 126, 0.755);
+  transform: rotate(100deg);
+}
+
+.counter_icon {
+  display: flex;
+  align-items: end;
+  margin-left: 60px;
+}
+.hover_effect {
+  background: rgba(0, 0, 255, 0.501);
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 30px;
+  background-color: #ffffff89;
+  margin-top: 30px;
+  border-radius: 30px;
+  font-family: Roboto;
+}
+.mail i {
+  margin-right: 5px;
+}
+.mail a {
+  text-decoration: none;
+  color: #000;
+}
+.mail a:hover {
+  color: green;
+}
